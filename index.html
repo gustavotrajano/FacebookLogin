@@ -4,9 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Gustavo Trajano Hermes">
+    <meta name="description" content="Clone da tela de login do Facebook">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login Facebook</title>
 </head>
 <body>
-    
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h2>facebook</h2>
+            </div><!--logo-->
+            <form method="post" class="form-login">
+                <div class="form-element">
+                    <p>E-mail ou Telefone</p>
+                    <input type="text">
+                </div><!--form-element-->
+                <div class="form-element">
+                     <p>Senha:</p>
+                    <input type="password">
+                </div><!--form-element-->
+                <div class="form-element">
+                    <input type="submit" value="Enviar">
+                </div><!--form-element-->
+            </form><!--form-login-->
+            <div class="clear"></div>
+        </div><!--center-->
+    </header><!--header-->
+    <section class="main">
+        <div class="center">
+            <div class="img-pessoas">
+                <img src="images/img1.png" alt="">
+            </div><!--img-pessoas-->
+            <div class="abrir-conta">
+                <h2>Abra uma conta</h2>
+                <h3>É gratuito e sempre será.</h3>
+                <form class="criar-conta">
+                    <div class="w50">
+                        <input type="text" placeholder="Nome">
+                    </div><!--w50-->
+                    <div class="w50">
+                        <input type="text" placeholder="Sobrenome">
+                    </div><!--w50-->
+                    <div class="w100">
+                        <input type="email" placeholder="E-mail">
+                    </div><!--w100-->
+                    <div class="w100">
+                        <input type="password" placeholder="Senha">
+                    </div><!--w100-->
+                    <div class="w100">
+                        <h2>Data de Nascimento:</h2>
+                        <select name= "nascimento-dia" class="nascimento">
+                            <option value="1">1</option>
+                        </select><!--nascimento-->
+                        <select name= "nascimento-mes" class="nascimento">
+                            <option value="0">Junho</option>
+                        </select><!--nascimento-->
+                        <select name= "nascimento-ano" class="nascimento">
+                            <option value="0">1990</option>
+                        </select><!--nascimento-->
+                        <div class="clear"></div>
+                    </div><!--w100-->
+                    <div class="w100">
+                        <div class="input-radio">
+                            <input type="radio" name="sexo" value="Masculino">
+                            <h2>Masculino</h2>
+                        </div><!--input-radio-->
+                        <div class="input-radio">
+                        <input type="radio" name="sexo" value="Feminino">
+                            <h2>Feminino</h2>
+                        </div><!--input-radio-->
+                        <div class="clear"></div>
+                    </div><!--w100-->
+                    <div class="w100">
+                        <input type="submit" value="Cadastre-se">
+                    </div><!--w100-->
+                    <div class="clear"></div>
+                </form><!--criar-conta-->
+            </div><!--abrir-conta-->
+            <div class="clear"></div><!--clear-->
+        </div><!--center-->
+    </section><!--main-->
 </body>
 </html>
